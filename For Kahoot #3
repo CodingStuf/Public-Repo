@@ -1,0 +1,27 @@
+import java.util.List;
+import java.util.ListIterator;
+import java.util.LinkedList;
+
+public class testToSubmit {
+   public static void main(String[] args)
+   {
+      List<Integer> numbers = new LinkedList<Integer>();
+      
+      numbers.add(1);
+      numbers.add(2);
+      numbers.add(3);
+      numbers.add(null);
+      numbers.add(5);
+      
+      ListIterator<Integer> numIterator = numbers.listIterator();  
+
+     int i = 0;
+     while(numIterator.hasNext()){
+          numIterator.next;
+     }
+     while(numIterator.hasPrevious()){
+        System.out.print(numIterator.previous() + " ");
+     }
+     
+    }
+}
